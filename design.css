@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* h1 design */
+h1{
+    text-shadow: 5px 2px 2px maroon, 0 0 25px blue, 2px 2px 20px darkblue;
+    color: white;
+}
+
+/* pic design */
+#pic{
+    box-shadow: 10px 10px 10px grey, 10px 10px 10px darkblue;
+}
+
+.main-container{
+    margin: 1%;
+    padding: 1%;
+    display: flex;
+}
+
+.main-container > div{
+    border: solid 2px black;
+    margin: 2px;
+    padding: 1%;
+}
+
+
+
+.main-content{
+    flex: 3;
+    order: 2;
+}
+
+.left-bar{
+    flex: 1;
+    order: 1;
+}
+
+.right-bar{
+    flex: 1;
+    order: 3;
+}
+
+.list-container{
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+}
+
+.list-container > div{
+    flex-basis: 2px;
+    background-color: yellowgreen;
+    padding: 10px 50px;
+}
+
+/*Div Navigation*/
+.div-navigation{
+    margin: 10px 20px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div-navigation > div{
+    background-color: black;
+    color: white;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    margin: 2px;
+    padding: 20px;
+
+    flex: 1;
+}
+
+.div-navigation > div:hover{
+    color: black;
+    background-color: yellow;
+}
+
+
+/*Google*/
+.google-word{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.google-word > div{
+    font-size: 2cm;
+    font-style: bold;
+    flex-basis: 1PX;
+}
+
+#one{
+    color: blue;
+}
+
+#two{
+    color: red;
+}
+
+#three{
+    color: yellow;
+}
+
+#four{
+    color: blue;
+}
+
+#five{
+    color: green;
+}
+
+#six{
+    color: red;
+}
+
+#tbox{
+    margin-bottom: 50px;
+    justify-content: center;
+    display: flex;
+} 
+
+#text{    
+    height: 10px; width: 500px; 
+}
+
+
+/* uno,dos,tres, kwatro */
+.grid{
+    display: flex;
+    margin-bottom: 5px;
+}
+    .uno{
+        flex:1;
+        margin-left: 50px;
+        margin-right: 10px;
+        height: 1cm;
+        border: 2px solid black;
+        border-radius: 5px;
+        background-color: blue;
+    }.uno:hover{background-color: white;}
+    .dos{
+        flex:2;
+        height: 1cm;
+        margin-right: 50px;
+        border: 2px solid black;
+        border-radius: 5px;
+        background-color: greenyellow;
+    }.dos:hover{background-color: white;}
+
+.port{
+    display: flex;
+    margin-bottom: 20px;
+}
+    .port-1{
+        flex: 2;
+        margin-left: 50px;
+        margin-right: 10px;
+        height: 1cm;
+        border: solid 2px black;
+        border-radius: 5px;
+        background-color: red;
+    }.port-1:hover{background-color: white;}
+
+    .port-2{
+        flex: 1;
+    }
+        .tres{
+            height: 0.4cm;
+            border: solid 1px black;
+            margin-right: 50px;
+            border-radius: 5px;
+            background-color: wheat;
+            
+        }.tres:hover{background-color: white;}
+        .kwatro{
+            height: 0.4cm;
+            margin-top: 0.1cm;
+            border: solid 1px black;
+            margin-right: 50px;
+            border-radius: 5px;
+            background-color: cyan;
+        }.kwatro:hover{background-color: white;}
+
+/* pyramid */
+.first{
+    margin: auto;
+    width: 200px;
+    padding: 20px;
+    border: solid 1px black;
+    height: 4cm;
+    background-color: greenyellow;
+}.first:hover{background-color: white;}
+    .second{
+        padding: 20px;
+        border: solid 1px black;
+        height: 3cm;   
+        background-color: red;
+    }.second:hover{background-color: white;}
+        .third{
+            padding: 20px;
+            border: solid 1px black;
+            height: 2cm;
+            background-color: cyan;
+        }.third:hover{background-color: white;}
+            .fourth{
+                padding: 20px;
+                border: solid 1px black;
+                height: 1cm;
+                background-color: wheat;
+            }.fourth:hover{background-color: white;}
+             .fifth{
+                padding: 15px;
+                border: solid 1px black;
+                height: 4px;
+                background-color: lightcoral;
+             }.fifth:hover{background-color: white;}
+
+.box{
+    height: 5cm;
+    width: 280px;
+    margin: auto;
+}
+    #box-red{
+        height: 2cm;
+        width: 140px;
+        background-color: red;
+        border-radius: 5px;
+        position: relative;
+        top: 60px;
+        z-index: 1;
+    }#box-red:hover{background-color: cyan;}
+    #box-blue{
+        height: 2cm;
+        width: 140px;
+        background-color: blue;
+        border-radius: 5px;
+        position: relative;
+        left: 20px;
+        z-index: 2;
+    }#box-blue:hover{background-color: gold;}
+    #box-green{
+        height: 2cm;
+        width: 140px;
+        background-color: yellowgreen;
+        border-radius: 5px;
+        position: relative;
+        left: 40px;
+        bottom: 60px;
+        z-index: 1;
+    }#box-green:hover{background-color: wheat;}
